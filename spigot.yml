@@ -63,6 +63,7 @@ messages:
   outdated-server: Outdated server! I'm still on {0}
 world-settings:
   default:
+    thunder-chance: 100000
     verbose: true
     enable-zombie-pigmen-portal-spawns: true
     dragon-death-sound-radius: 0
@@ -142,3 +143,7 @@ world-settings:
       other-multiplier: 0.0
     squid-spawn-range:
       min: 45.0
+  worldeditregentempworld:
+    verbose: false
+  faweregentempworld:
+    verbose: false
