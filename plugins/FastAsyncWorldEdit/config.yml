@@ -1,18 +1,18 @@
 # These first 6 aren't configurable
 issues: "https://github.com/IntellectualSites/FastAsyncWorldEdit/issues"
 wiki: "https://github.com/IntellectualSites/FastAsyncWorldEdit-Documentation/wiki"
-date: "Mon Feb 21 00:00:00 CET 2022"
-build: "https://ci.athion.net/job/FastAsyncWorldEdit/73"
-commit: "https://github.com/IntellectualSites/FastAsyncWorldEdit/commit/ffe94b46"
+date: "Thu Feb 24 00:00:00 CET 2022"
+build: "https://ci.athion.net/job/FastAsyncWorldEdit/76"
+commit: "https://github.com/IntellectualSites/FastAsyncWorldEdit/commit/f1708d2a"
 platform: "Bukkit"
 # Set true to enable WorldEdit restrictions per region (e.g. PlotSquared or WorldGuard).
 # To be allowed to WorldEdit in a region, users need the appropriate
 # fawe.<plugin>  permission. See the Permissions page for supported region plugins.
-region-restrictions: true
+region-restrictions: false
 # FAWE will cancel non admin edits when memory consumption exceeds this %
 #  - Bypass with `/wea` or `//fast` or `fawe.bypass`
 #  - Disable with 100 or -1.
-max-memory-percent: 95
+max-memory-percent: 100
 
 # Enable or disable core components
 enabled-components:
@@ -124,7 +124,7 @@ queue:
     #  - false = disabled
     #  - title = Display progress titles
     #  - chat = Display progress in chat
-    display: "false"
+    display: "title"
     # How often edit progress is displayed
     interval: 1
     # Delay sending progress in milliseconds (so quick edits don't spam)
